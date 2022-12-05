@@ -13,7 +13,7 @@ Releases an action in a consistent way to be used across action repos
 <!-- start usage -->
 
 ```yaml
-- uses: atomicfi/action-composite-action-template@undefined
+- uses: atomicfi-engineering/action-composite-action-template@undefined
   with:
     # The github token used to push release tags
     github-token: ""
@@ -47,7 +47,7 @@ jobs:
   release-action:
     steps:
       - name: Release action
-        uses: atomicfi/action-release-action@v1
+        uses: atomicfi-engineering/action-release-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}  
 
