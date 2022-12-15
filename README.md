@@ -47,7 +47,7 @@ jobs:
   release-action:
     steps:
       - name: Release action
-        uses: atomicfi-engineering/action-release-action@v1
+        uses: atomicfi-engineering/action-release-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}  
 
