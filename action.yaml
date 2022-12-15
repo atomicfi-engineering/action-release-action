@@ -1,3 +1,4 @@
+# action.yaml
 name: Release action
 description: Releases an action in a consistent way to be used across action repos
 inputs:
